@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+button.green {
+    background-color: green;
+}
+
+button.red {
+    background-color: red;
+}
+
+button.blue {
+    background-color: blue;
+}
+
+button.random {
+    background-color: gray;
+}
